@@ -1,8 +1,0 @@
-mouse_drug_data_df = pd.read_csv("data/mouse_drug_data.csv")
-clinical_trial_data_df =pd.read_csv("data/clinicaltrial_data.csv")
-
-# Read the Mouse and Drug Data and the Clinical Trial Data
-
-
-# Combine the data into a single dataset = 
-combine_df = pd.merge(mouse_drug_data_df,clinical_trial_data_df,how="outer",on= "Mouse ID")
